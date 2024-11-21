@@ -3,10 +3,7 @@ import openai
 import pandas as pd
 import time
 import os
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
 
 # Prompt the user to enter the API key
 api_key = st.text_input("Enter your OpenAI API key:", type="password")
